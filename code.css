@@ -1,0 +1,154 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.5;
+  color: #333;
+  margin: 10;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+
+/*  h2 {
+  font-size: 3.25rem;
+ }  */
+ 
+#subheader {
+  text-align: center;
+}
+
+a {
+  color: #265c87;
+}
+
+a:hover {
+  color: #113f63;
+}
+
+#main {
+  border-radius: 5px;
+  background: #eee;
+  padding: 15px;
+  margin: 30px 8px;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+/* @media (max-width: 460px) {
+  #img-caption {
+    font-size: 2rem;
+  }
+} */
+
+img {
+ max-width: 100%;
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  
+}
+
+#img-div {
+  background: white;
+  border-width: 
+}
+
+#img-caption {
+  margin: 10px 0 5px 0;
+  text-align: center;
+  padding-bottom: 10px;
+ font-style: italic;
+}
+
+
+
+#headline {
+  text-align: center;
+  font-size: 2.15rem;
+  
+}
+
+ul {
+  max-width: 850px;
+ text-align: left;
+  line-height: 1.6;
+  margin: 0 auto 50px auto;
+  background-color: white;
+ border-radius: 10px;
+ border: 35px solid white;
+    border-bottom: 5px solid grey;
+   border-top: 5px solid grey;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey; 
+  font-size: 1.7rem;
+  
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+}
+
+#footline {
+       align-text: center;
+  
+  
+
+}
+
+footer {
+  font-size: 1.3rem;
+  font-family: system-ui;
+  text-align: right;
+  padding-top: 50px;
+} 
+
+
+@media (max-width: 720px) {
+  #img-caption {
+    font-size: 1.0rem;
+  }
+  
+  ul {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0 25px 0;
+  }
+  
+  #image {
+    padding: 0;
+    width: 100%;
+  }
+  
+  blockquote {
+    font-size: 1.4rem;
+  }
+}
